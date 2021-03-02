@@ -1,0 +1,10 @@
+# IDEs
+.idea
+
+# Environments
+.env
+
+# Project specific
+site-packages/
+
+.git
