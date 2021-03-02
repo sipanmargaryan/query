@@ -53,6 +53,7 @@ class Order(TimeStampedModel):
             )
             .values(
                 'products',
+                'order_number',
                 first_name=F('customer__first_name'),
                 last_name=F('customer__last_name'),
                 email_address=F('customer__emails__email_address'),
